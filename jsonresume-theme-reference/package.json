@@ -1,0 +1,45 @@
+{
+  "name": "jsonresume-theme-reference",
+  "version": "1.0.0",
+  "description": "JSON Resume reference theme using React and styled-components",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "jsonresume",
+    "jsonresume-theme",
+    "resume",
+    "react",
+    "styled-components"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@jsonresume/core": "^0.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  }
+}
