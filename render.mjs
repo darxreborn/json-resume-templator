@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { render } from './jsonresume-theme-reference/dist/index.js';
 import { writeFileSync, mkdirSync } from 'fs';
 import { createInterface } from 'readline';

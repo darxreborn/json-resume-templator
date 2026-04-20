@@ -1,4 +1,10 @@
 {
+  "name": "json-resume-templator",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "json-resume-templator": "./render.mjs"
+  },
   "dependencies": {
     "puppeteer": "^24.40.0"
   }
